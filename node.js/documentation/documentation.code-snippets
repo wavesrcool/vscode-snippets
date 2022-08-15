@@ -1,0 +1,16 @@
+{
+    "Documentation - Full ": {
+        "prefix": "doc-f",
+        "body": [ "/**",
+        "* * ${WORKSPACE_NAME} Documentation",
+        "*",
+        "* @created ${CURRENT_MONTH} ${CURRENT_DATE} ${CURRENT_YEAR}",
+        "* @kind",
+        "* @about [ ]",
+        "*",
+        "*/",]
+      },
+
+
+   
+}
