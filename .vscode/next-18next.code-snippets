@@ -1,0 +1,59 @@
+{
+    // json entry
+  
+    "Translations - Entry Line": {
+      "prefix": "t-el",
+      "body": ["\"${1}\": \"${2}\","]
+    },
+  
+    // hooks
+  
+    "Translations - useTranslation  ": {
+      "prefix": "uset",
+      "body": ["const { t } = useTranslation(I18nDictionary)"]
+    },
+
+    // glossary
+  
+    "Translations - Glossary Phrases String": {
+      "prefix": "t-sgp",
+      "body": ["`${t(`glossary:phrases.${1}`, ``)}`"]
+    },
+  
+    "Translations - Glossary Phrases Function": {
+      "prefix": "t-fgp",
+      "body": ["t(`glossary:phrases.${1}`, ``)"]
+    },
+  
+    "Translations - Glossary Compound String": {
+      "prefix": "t-sgc",
+      "body": ["`${t(`glossary:compound.${1}`, ``)}`"]
+    },
+  
+    "Translations - Glossary Compound Function": {
+      "prefix": "t-fgc",
+      "body": ["t(`glossary:compound.${1}`, ``)"]
+    },
+  
+    "Translations - Glossary Simple String": {
+      "prefix": "t-sgs",
+      "body": ["`${t(`glossary:simple.${1}`, ``)}`"]
+    },
+  
+    "Translations - Glossary Simple Function": {
+      "prefix": "t-fgs",
+      "body": ["t(`glossary:simple.${1}`, ``)"]
+    },
+  
+    "Translations - String": {
+      "prefix": "t-str",
+      "body": ["`${t(`${1}`), ``}`"]
+    },
+  
+    "Translations - Function": {
+      "prefix": "t-fn",
+      "body": ["t(`${1}`, ``)"]
+    },
+
+  }
+  
