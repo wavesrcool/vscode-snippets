@@ -1,0 +1,30 @@
+{
+    "Material - React Functional Component": {
+      "prefix": "m-rfc",
+      "body": [
+        "import { EmotionJSX } from '@emotion/react/types/jsx-namespace'",
+        "import Box from '@mui/material/Box'",
+        "import * as React from 'react'",
+        "",
+  
+        "export type TypesChromaComponent${TM_FILENAME_BASE} = {",
+        "    legend: ChromaLegend // & { map?: SxProps<Theme>, element: EmotionJSX.Element }",
+        " ",
+        "}",
+        "",
+        "function ${TM_FILENAME_BASE}({",
+        "  legend,",
+        "}: TypesChromaComponent${TM_FILENAME_BASE}): EmotionJSX.Element {",
+        "  return (",
+        "    <Box display={'flex'}>",
+        "      ${TM_FILENAME_BASE}",
+        "    </Box>",
+        "  )",
+        "}",
+        "",
+        "export default ${TM_FILENAME_BASE}",
+        ""
+      ]
+    }
+  }
+  
