@@ -1,0 +1,11 @@
+{
+  "Node - Log": {
+    "prefix": "n-log",
+    "body": ["console.log(${1}, `${1}`)"]
+},
+
+  "Node - Log Json Stringify": {
+      "prefix": "n-logj",
+      "body": ["console.log(JSON.stringify(${1},null,4), `${1}`)"]
+  },
+}
