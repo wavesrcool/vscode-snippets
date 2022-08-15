@@ -1,0 +1,99 @@
+{
+  
+  "React - Import ": {
+    "prefix": "r-i",
+    "body": ["import * as React from 'react'"]
+  },
+
+  "React - use Effect": {
+    "prefix": "r-uef",
+    "body": [
+      "React.useEffect(() => {",
+      "//",
+      "// @notes:",
+      "",
+      "//",
+      "// end",
+      "return",
+      "}, [])"
+    ]
+  },
+
+  "React - use Effect Async": {
+    "prefix": "r-uefa",
+    "body": [
+      "React.useEffect(() => {",
+      "//",
+      "// @notes:",
+      "",
+      ";(async () => {try { await console.log('run effect async')} catch (e) {",
+      "//",
+      "// @notes:",
+            "} finally {",
+            "//",
+            "// @notes:",
+            "",
+      "// loading stop",
+      "// fold()",
+      "",
+      "}})()",
+      "//",
+      "// end",
+      "return",
+      "}, [])"
+    ]
+  },
+
+  "React - Callback Async": {
+    "prefix": "r-lca",
+    "body": [
+      "const lca${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
+      "//",
+      "// @notes:",
+      "",
+      "// error false",
+      "// fold()",
+      "",
+      "// loading start",
+      "// fold()",
+      "",
+      ";(async () => {try {",    
+      "//",
+      "// @notes:",
+      "",
+      "console.log(`run lca async`)",
+      "} catch (e) {",
+      "//",
+      "// @notes:",
+      "} finally {",
+      "//",
+      "// @notes:",
+      "",
+      "// loading stop",
+      "// fold()",
+      "",
+      "}})()",
+      "//",
+      "// end",
+      "return",
+      "}, [])"
+    ]
+  },
+
+  "React Callback": {
+    "prefix": "r-lc",
+    "body": [
+
+      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
+      "//",
+      "// @notes:",
+      "",
+      "//",
+      "// end",
+      "return",
+      "}, [])"
+    ]
+  }
+
+
+}
