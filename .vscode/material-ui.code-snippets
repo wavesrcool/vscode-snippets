@@ -1,0 +1,255 @@
+{
+  // padding
+
+  "Material - Component Parameter Padding X ": {
+    "prefix": "m-f-px",
+    "body": [
+      "px={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Padding Y ": {
+    "prefix": "m-f-py",
+    "body": [
+      "py={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Padding Right ": {
+    "prefix": "m-f-pr",
+    "body": [
+      "pr={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Padding Left ": {
+    "prefix": "m-f-pl",
+    "body": [
+      "pl={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Padding Bottom ": {
+    "prefix": "m-f-pb",
+    "body": [
+      "pb={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Padding Top ": {
+    "prefix": "m-f-pt",
+    "body": [
+      "pt={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+    // margin
+
+  "Material - Component Parameter Margin X ": {
+    "prefix": "m-f-mx",
+    "body": [
+      "mx={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Margin Y ": {
+    "prefix": "m-f-my",
+    "body": [
+      "my={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Margin Right ": {
+    "prefix": "m-f-mr",
+    "body": [
+      "mr={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Margin Left ": {
+    "prefix": "m-f-ml",
+    "body": [
+      "ml={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Margin Bottom ": {
+    "prefix": "m-f-mb",
+    "body": [
+      "mb={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Margin Top ": {
+    "prefix": "m-f-mt",
+    "body": [
+      "mt={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+    // align, justify
+
+  "Material - Component Parameter Justify Content Center ": {
+    "prefix": "m-f-jc",
+    "body": ["justifyContent={{xs:undefined}}"]
+  },
+
+  "Material - Component Parameter Align Content ": {
+    "prefix": "m-f-ac",
+    "body": ["alignContent={{xs:undefined}}"]
+  },
+
+  // width
+
+  "Material - Component Parameter Width Max": {
+    "prefix": "m-f-wmx",
+    "body": [
+      "maxWidth={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Width Min": {
+    "prefix": "m-f-wm",
+    "body": [
+      "minWidth={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Width": {
+    "prefix": "m-f-w",
+    "body": [
+      "width={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Width 100%": {
+    "prefix": "m-f-w1",
+    "body": [
+      "width={{xs:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+    // height
+
+  "Material - Component Parameter Height": {
+    "prefix": "m-f-h",
+    "body": [
+      "height={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Height Max": {
+    "prefix": "m-f-hmx",
+    "body": [
+      "maxHeight={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Height Min": {
+    "prefix": "m-f-hm",
+    "body": [
+      "minHeight={{xs:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Material - Component Parameter Height 100%": {
+    "prefix": "m-f-h1",
+    "body": [
+      "height={{xs:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // flex
+
+  "Material -  Component Parameter Flex": {
+    "prefix": "m-f-fl",
+    "body": ["display=\"flex\""]
+  },
+
+  "Material -  Component Parameter Flex 1": {
+    "prefix": "m-f-fl1",
+    "body": ["display=\"flex\" flex={1}"]
+  },
+
+
+  "Material -  Component Parameter Flex Fill": {
+    "prefix": "m-f-flf",
+    "body": ["display=\"flex\" flex={1} height={`calc(${100}%)`}"]
+  },
+
+  "Material -  Component Parameter Flex Center": {
+    "prefix": "m-f-flc",
+    "body": ["display=\"flex\" justifyContent={{xs:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}} alignItems={{xs:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"]
+  },
+
+  // box
+
+  "Material - Box Flex": {
+    "prefix": "m-box-fl",
+    "body": ["<Box display=\"flex\">box</Box>"]
+  },
+
+  "Material - Box Flex 1": {
+    "prefix": "m-box-fl",
+    "body": ["<Box display=\"flex\" flex={1}>box</Box>"]
+  },
+
+  "Material - Box Flex Center": {
+    "prefix": "m-box-flc",
+    "body": [
+      "<Box display=\"flex\" alignItems=\"center\" justifyContent=\"center\">box</Box>"
+    ]
+  },
+
+  "Material - Box Flex Fill": {
+    "prefix": "m-box-flf",
+    "body": ["<Box display=\"flex\" flex={1} height={`calc(${100}%)`}>box</Box>"]
+  },
+
+  "Material - Box Flex Fill Center": {
+    "prefix": "m-box-flfc",
+    "body": [
+      "<Box display=\"flex\" flex={1} height={`calc(${100}%)`} alignItems=\"center\" justifyContent=\"center\">box</Box>"
+    ]
+  },
+
+
+
+  // stacks
+
+  "Material - Stack Row": {
+    "prefix": "m-stack-row",
+    "body": [
+      "<Stack direction={{ xs: 'row' }} spacing={{ xs: 0 }} justifyContent={{xs: 'flex-start'}} alignItems={{xs: 'flex-start'}}>row</Stack>"
+    ]
+  },
+
+  "Material - Stack Column": {
+    "prefix": "m-stack-column",
+    "body": [
+      "<Stack direction={{ xs: 'column' }} spacing={{ xs: 0 }} justifyContent={{xs: 'flex-start'}} alignItems={{xs: 'flex-start'}}>col</Stack>"
+    ]
+  },
+
+  "Material - Component Parameter Stack Divider Column": {
+    "prefix": "m-f-stack-div-c",
+    "body": ["divider={<Divider orientation=\"horizontal\" flexItem />}"]
+  },
+
+  "Material - Component Parameter Stack Divider Row": {
+    "prefix": "m-f-stack-div-r",
+    "body": ["divider={<Divider orientation=\"vertical\" flexItem />}"]
+  },
+
+  // grid
+
+  "Material - Grid Item": {
+    "prefix": "m-grid-item",
+    "body": ["<Grid item xs={12}>grid</Grid>"]
+  },
+
+  "Material - Grid Basic": {
+    "prefix": "m-grid-basic",
+    "body": ["<Grid container ><Grid item xs={12}>grid</Grid></Grid>"]
+  },
+}
