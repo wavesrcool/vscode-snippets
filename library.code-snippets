@@ -1,0 +1,33 @@
+{
+  "Library Function Async": {
+    "prefix": "libfna",
+    "body": [
+      "const ${TM_FILENAME_BASE} = async (): Promise<void> => { try {",
+      " return } catch (e) {",
+      " console.log(e, 'e')",
+      " return } }",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ]
+  },
+
+  "Library Function": {
+    "prefix": "libfn",
+    "body": [
+      "const ${TM_FILENAME_BASE} = (): void => { ",
+      "return }",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ]
+  },
+
+  "Library Function Type Include": {
+    "prefix": "libfnf",
+    "body": ["export type TypesFigures${TM_FILENAME_BASE} = {${1}}"]
+  },
+
+  "Library Function Type Resolve": {
+    "prefix": "libfnr",
+    "body": ["export type TypesResolve${TM_FILENAME_BASE} = {${1}}"]
+  }
+}
