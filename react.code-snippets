@@ -1,53 +1,46 @@
 {
-  
-  "React - Import ": {
-    "prefix": "r-i",
-    "body": ["import * as React from 'react'"]
+  "React - Use State - String": {
+    "prefix": "r-us-s",
+    "body": ["  const [s1, setS1] = React.useState<string>('')", ""],
+    "description": ""
   },
 
-  "React - use Effect": {
+  "React - Use State - Boolean": {
+    "prefix": "r-us-b",
+    "body": ["  const [b1, setB1] = React.useState<boolean>(false)", ""],
+    "description": ""
+  },
+
+  "React - Use Effect": {
     "prefix": "r-uef",
     "body": [
       "React.useEffect(() => {",
       "//",
       "// @notes:",
       "",
-      "//",
       "// end",
       "return",
       "}, [])"
     ]
   },
 
-  "React - use Effect Async": {
-    "prefix": "r-uefa",
+  "React - Use Callback": {
+    "prefix": "r-lc",
     "body": [
-      "React.useEffect(() => {",
+      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
       "//",
       "// @notes:",
       "",
-      ";(async () => {try { await console.log('run effect async')} catch (e) {",
-      "//",
-      "// @notes:",
-            "} finally {",
-            "//",
-            "// @notes:",
-            "",
-      "// loading stop",
-      "// fold()",
-      "",
-      "}})()",
-      "//",
       "// end",
       "return",
       "}, [])"
     ]
   },
 
-  "React - Callback Async": {
+  "React - Use Callback Async": {
     "prefix": "r-lca",
     "body": [
-      "const lca${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
+      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
       "//",
       "// @notes:",
       "",
@@ -57,43 +50,48 @@
       "// loading start",
       "// fold()",
       "",
-      ";(async () => {try {",    
+      ";(async () => {try {",
       "//",
-      "// @notes:",
+      "// run",
       "",
-      "console.log(`run lca async`)",
+      "console.log(`start async`)",
+      "console.log(`end async`)",
       "} catch (e) {",
       "//",
-      "// @notes:",
+      "// catch: ",
       "} finally {",
       "//",
-      "// @notes:",
+      "// @radroots-lca-final: ",
       "",
       "// loading stop",
       "// fold()",
       "",
+      "// end",
       "}})()",
-      "//",
+      "",
       "// end",
       "return",
       "}, [])"
     ]
   },
 
-  "React Callback": {
-    "prefix": "r-lc",
+  "React Memo": {
+    "prefix": "r-lm",
     "body": [
-
-      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
-      "//",
-      "// @notes:",
-      "",
-      "//",
-      "// end",
-      "return",
-      "}, [])"
-    ]
+      "  const lm${TM_FILENAME_BASE}${1}= React.useMemo(",
+      "      () => ({",
+      "        /**",
+      "         * @notes:",
+      "         */",
+      "        ${2}: () => {",
+      "        ${3}",
+      "        // end",
+      "        return",
+      "        },",
+      "      }),",
+      "      []",
+      "    )"
+    ],
+    "description": ""
   }
-
-
 }

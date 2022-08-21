@@ -1,0 +1,22 @@
+{
+  "React Navigation - Stack Screen": {
+    "prefix": "rnav-stack-screen",
+    "body": [
+      "import { NativeStackScreenProps } from '@react-navigation/native-stack'",
+      "import { Flex } from 'native-base'",
+      "import * as React from 'react'",
+      "",
+      "export default function ${TM_FILENAME_BASE}({",
+      "  navigation,",
+      "}: NativeStackScreenProps<TypeNavigationRoot, ''>): JSX.Element {",
+      "  return (",
+      "    <Flex safeArea w=\"100%\" h=\"100%\" align=\"center\">",
+      "      ${TM_FILENAME_BASE}",
+      "    </Flex>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": ""
+  }
+}

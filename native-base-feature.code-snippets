@@ -1,0 +1,185 @@
+{
+  //
+  //
+  // Native Base - Features
+  //
+
+  // space
+  "Native Base - Features - Spacing": {
+    "prefix": "bf-sp",
+    "body": [
+      "space={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Direction Row": {
+    "prefix": "bf-dir-r",
+    "body": [
+      "direction={{base:`row`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Direction Column": {
+    "prefix": "bf-dir-c",
+    "body": [
+      "direction={{base:`column`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // flex
+  "Native Base - Features - Flex Directon Row": {
+    "prefix": "bf-flr",
+    "body": [
+      "flexDirection={{base:`row`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Flex Directon Column": {
+    "prefix": "bf-flc",
+    "body": [
+      "flexDirection={{base:`column`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // align
+  "Native Base - Features - Align Items Center": {
+    "prefix": "bf-algi-c",
+    "body": [
+      "alignItems={{base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Align Content Center": {
+    "prefix": "bf-algc-c",
+    "body": [
+      "alignItems={{base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // justify
+  "Native Base - Features - Justify Items Center": {
+    "prefix": "bf-jsti-c",
+    "body": [
+      "justifyItems={{base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Justify Content Center": {
+    "prefix": "bf-jstc-c",
+    "body": [
+      "justifyContent={{base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // width
+  "Native Base - Features - Width": {
+    "prefix": "bf-w",
+    "body": [
+      "w={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Width 100": {
+    "prefix": "bf-w1",
+    "body": ["w={{base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"]
+  },
+
+  // height
+  "Native Base - Features - Height": {
+    "prefix": "bf-h",
+    "body": [
+      "h={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Height 100": {
+    "prefix": "bf-h1",
+    "body": ["h={{base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"]
+  },
+
+  // margin
+  "Native Base - Features - Margin Bottom": {
+    "prefix": "bf-mb",
+    "body": [
+      "mb={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Margin Top": {
+    "prefix": "bf-mt",
+    "body": [
+      "mt={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Margin Right": {
+    "prefix": "bf-mr",
+    "body": [
+      "mr={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Margin Left": {
+    "prefix": "bf-ml",
+    "body": [
+      "ml={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Margin X": {
+    "prefix": "bf-mx",
+    "body": [
+      "mx={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Margin Y": {
+    "prefix": "bf-my",
+    "body": [
+      "my={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // padding
+  "Native Base - Features - Padding Bottom": {
+    "prefix": "bf-pb",
+    "body": [
+      "pb={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Padding Top": {
+    "prefix": "bf-pt",
+    "body": [
+      "pt={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Padding Right": {
+    "prefix": "bf-pr",
+    "body": [
+      "pr={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Padding Left": {
+    "prefix": "bf-pl",
+    "body": [
+      "pl={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Padding X": {
+    "prefix": "bf-px",
+    "body": [
+      "px={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Features - Padding Y": {
+    "prefix": "bf-py",
+    "body": [
+      "py={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  }
+}
