@@ -24,6 +24,36 @@
     ]
   },
 
+  "React - Use Effect Async ": {
+    "prefix": "r-uefa",
+    "body": [
+      "",
+      "  React.useEffect(() => {",
+      "    //",
+      "    // @notes:",
+      "    ;(async () => {",
+      "      try {",
+      "        //",
+      "        // try:",
+      "        console.log(`run async`)",
+      "      } catch (e) {",
+      "        //",
+      "        // catch:",
+      "      } finally {",
+      "        //",
+      "        // finally:",
+      "      }",
+      "    })()",
+      "",
+      "    // end",
+      "    return",
+      "  }, [])"
+    ],
+    "description": ""
+  },
+
+
+
   "React - Use Callback": {
     "prefix": "r-lc",
     "body": [
@@ -54,14 +84,12 @@
       "//",
       "// run",
       "",
-      "console.log(`start async`)",
-      "console.log(`end async`)",
+      "console.log(`run async`)",
       "} catch (e) {",
       "//",
       "// catch: ",
       "} finally {",
       "//",
-      "// @radroots-lca-final: ",
       "",
       "// loading stop",
       "// fold()",
