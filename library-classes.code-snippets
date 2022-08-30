@@ -1,0 +1,17 @@
+{
+    "Radroots Class ": {
+        "prefix": "lib-class",
+        "body": [
+          "export class ${TM_FILENAME_BASE} {",
+          "  private ${1}: string",
+          "",
+          "  constructor(${1}0: string) {",
+          "    this.${1} = ${1}0",
+          "  }",
+          "",
+          "}",
+          ""
+        ],
+        "description": ""
+      },
+}
