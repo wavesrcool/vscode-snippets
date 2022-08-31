@@ -4,7 +4,7 @@
     "body": [
       "const ${TM_FILENAME_BASE} = async (): Promise<void> => { try {",
       " return } catch (e) {",
-      " console.log(e, 'e')",
+      " console.log(e, '${TM_FILENAME_BASE}')",
       " return } }",
       "",
       "export default ${TM_FILENAME_BASE}"
