@@ -8,4 +8,9 @@
       "prefix": "n-logj",
       "body": ["console.log(JSON.stringify(${1},null,4), `${1}`)"]
   },
+
+  "Node - Process Env": {
+    "prefix": "n-penv",
+    "body": ["process.env.${1}"]
+},
 }
