@@ -1,13 +1,20 @@
 {
+  "React - Import All": {
+    "prefix": "r-ia",
+    "body": ["import * as React from 'react'"],
+    "description": ""
+  },
+
+  
   "React - Use State - String": {
     "prefix": "r-us-s",
-    "body": ["  const [s1, setS1] = React.useState<string>('')", ""],
+    "body": ["const [s1, setS1] = React.useState<string>('')", ""],
     "description": ""
   },
 
   "React - Use State - Boolean": {
     "prefix": "r-us-b",
-    "body": ["  const [b1, setB1] = React.useState<boolean>(false)", ""],
+    "body": ["const [b1, setB1] = React.useState<boolean>(false)", ""],
     "description": ""
   },
 
