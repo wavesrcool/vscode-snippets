@@ -97,7 +97,7 @@
           " } = ${TM_FILENAME_BASE}Slice.actions",
           "",
           
-          "export const of${TM_FILENAME_BASE} = (state: AppState): ShapesTypes${TM_FILENAME_BASE}Value => state.${TM_FILENAME_BASE}.value",
+          "export const of${TM_FILENAME_BASE} = (state: _AppShape): ShapesTypes${TM_FILENAME_BASE}Value => state.${TM_FILENAME_BASE}.value",
           "export default ${TM_FILENAME_BASE}Slice.reducer",
           ""
         ]
