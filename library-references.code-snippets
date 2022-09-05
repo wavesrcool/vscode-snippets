@@ -1,0 +1,19 @@
+{
+    "Library - Reference - Default": {
+        "prefix": "lib-refd",
+        "body": [
+          "const ${TM_FILENAME_BASE} = {}",
+          "",
+          "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": ""
+      },
+
+      "Library - Reference ": {
+        "prefix": "lib-ref",
+        "body": [
+          "export const ${TM_FILENAME_BASE} = {}",
+                ],
+        "description": ""
+      }
+}

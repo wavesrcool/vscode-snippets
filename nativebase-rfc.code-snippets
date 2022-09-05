@@ -1,0 +1,83 @@
+{
+  //
+  //
+  // theme
+  //
+
+  "Native Base - React Functional Component": {
+    "prefix": "b-rfc",
+    "body": [
+      "/* eslint-disable react/jsx-props-no-spreading */",
+      "import { Flex, IFlexProps } from 'native-base'",
+      "import * as React from 'react'",
+      "import TypesTwistLegend from '../../../types/twist/legend/TypesTwistLegend'",
+      "",
+      "export type TypesFunctional${TM_FILENAME_BASE} = {",
+      "  legend: TypesTwistLegend & {",
+      "    element: JSX.Element",
+      "    map?: IFlexProps",
+      "  }",
+      "}",
+      "",
+      "function ${TM_FILENAME_BASE}({ legend }: TypesFunctional${TM_FILENAME_BASE}): JSX.Element {",
+      "  return <Flex {...legend.map}>{legend.element}</Flex>",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}",
+      ""
+    ],
+    "description": ""
+  },
+
+  "Native Base - React Functional Component - Box": {
+    "prefix": "b-rfc-box",
+    "body": [
+      "import { Box, Text } from 'native-base'",
+      "import * as React from 'react'",
+      "",
+      "export type TypesFunctional${TM_FILENAME_BASE} = {",
+      "    legend: TypesTwistLegend",
+      " // & { element: JSX.Element }",
+      " ",
+      "}",
+      "",
+      "function ${TM_FILENAME_BASE}({",
+      "  legend,",
+      "}: TypesFunctional${TM_FILENAME_BASE}): JSX.Element {",
+      "  return (",
+      "    <Box display={'flex'}>",
+      "      <Text>${TM_FILENAME_BASE}</Text>",
+      "    </Box>",
+      "  )",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}",
+      ""
+    ]
+  },
+
+  "Native Base - React Functional Component - Feature": {
+    "prefix": "b-rfc-feature",
+    "body": [
+      "import { NativeStackScreenProps } from '@react-navigation/native-stack'",
+      "import { Flex, Text } from 'native-base'",
+      "import * as React from 'react'",
+      "",
+      "export default function ${TM_FILENAME_BASE}({",
+      "// navigation,",
+      "route",
+      "}: NativeStackScreenProps<TypesNavigation, '${TM_FILENAME_BASE}'>): JSX.Element {",
+      "const {geometry} = route.params",
+      "console.log(!!geometry, '${TM_FILENAME_BASE}')",
+      "",
+      "  return (",
+      "    <Flex safeArea>",
+      "      <Text>${TM_FILENAME_BASE}</Text>",
+      "    </Flex>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": ""
+  }
+}

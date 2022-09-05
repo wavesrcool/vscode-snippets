@@ -4,6 +4,69 @@
   //
   //
 
+  "Native Base - Components - Column": {
+    "prefix": "b-col",
+    "body": [
+      "   <Column space={4}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+
+  "Native Base - Components - Column - Centered": {
+    "prefix": "b-col-c",
+    "body": [
+      "   <Column space={4} alignItems={[`center`]}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+  "Native Base - Components - Column - Centered All": {
+    "prefix": "b-col-cc",
+    "body": [
+      "   <Column space={4} alignItems={[`center`]} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+  "Native Base - Components - Column - 100": {
+    "prefix": "b-col-1",
+    "body": [
+      "   <Column space={4} width={[`100%`]} height={[`100%`]}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+  "Native Base - Components - Column - 100 - Centered": {
+    "prefix": "b-col-1c",
+    "body": [
+      "   <Column space={4} width={[`100%`]} height={[`100%`]} alignItems={[`center`]}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+
+  "Native Base - Components - Column - 100 - Centered All": {
+    "prefix": "b-col-1cc",
+    "body": [
+      "   <Column space={4} width={[`100%`]} height={[`100%`]} alignItems={[`center`]} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Column>"
+    ],
+    "description": ""
+  },
+
+
   // row
   "Native Base - Components - Stack Row": {
     "prefix": "b-stack-r",

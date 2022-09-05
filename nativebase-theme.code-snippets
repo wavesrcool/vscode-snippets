@@ -1,0 +1,52 @@
+{
+  "NativeBase - Theme Component Variant": {
+    "prefix": "b-theme-variant",
+    "body": [
+      "/* eslint-disable @typescript-eslint/no-explicit-any */",
+      "import { themeTools } from 'native-base'",
+      "",
+      "const ${TM_FILENAME_BASE} = (props: any) => {",
+      "  return {",
+      "    fontFamily: themeTools.mode(`circular.400`, `circular.400`)(props),",
+      "  }",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}",
+      ""
+    ],
+    "description": ""
+  },
+
+  "NativeBase - Theme Component Variant Entry": {
+    "prefix": "b-theme-ve",
+    "body": ["${1}: themeTools.mode(`${2}`, `${3}`)(props),", ""],
+    "description": ""
+  },
+
+  "NativeBase - Theme Component Variant Entry Responsive": {
+    "prefix": "b-theme-ve-r",
+    "body": [
+      "${1}: themeTools.mode({base:`${2}`, sm:undefined, md:undefined, lg:undefined, xl:undefined}, {base:`${2}`, sm:undefined, md:undefined, lg:undefined, xl:undefined})(props),",
+      ""
+    ],
+    "description": ""
+  },
+  
+    "NativeBase - Theme - Component - Geometry": {
+        "prefix": "b-th-comp-geo",
+        "body": [
+          "/* eslint-disable @typescript-eslint/no-explicit-any */",
+          "import { themeTools } from 'native-base'",
+          "",
+          "const ${TM_FILENAME_BASE} = (props: any) => {",
+          "  return {",
+          "    borderRadius: themeTools.mode(`full`, `full`)(props),",
+          "  }",
+          "}",
+          "",
+          "export default ${TM_FILENAME_BASE}",
+          ""
+        ],
+        "description": ""
+      }
+}

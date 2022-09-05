@@ -1,27 +1,27 @@
 {
   //
   //
-  // Native Base - Parameters
+  // Native Base - Props - Map
   //
 
   // flex
-  "Native Base - Parameters - Flex Directon Row": {
-    "prefix": "bp-flr",
+  "Native Base - Props - Map - Flex Directon Row": {
+    "prefix": "bpm-flr",
     "body": [
       "flexDirection: {base:`row`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Flex Directon Column": {
-    "prefix": "bp-flc",
+  "Native Base - Props - Map - Flex Directon Column": {
+    "prefix": "bpm-flc",
     "body": [
       "flexDirection: {base:`column`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
   // align
-  "Native Base - Parameters - Align Items Center": {
-    "prefix": "bp-alg-c",
+  "Native Base - Props - Map - Align Items Center": {
+    "prefix": "bpm-alg-c",
     "body": [
       "alignItems: {base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
@@ -29,120 +29,120 @@
 
   // justify
 
-  "Native Base - Parameters - Justify Content Center": {
-    "prefix": "bp-jst-c",
+  "Native Base - Props - Map - Justify Content Center": {
+    "prefix": "bpm-jst-c",
     "body": [
       "justifyContent: {base:`center`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
   // width
-  "Native Base - Parameters - Width": {
-    "prefix": "bp-w",
+  "Native Base - Props - Map - Width": {
+    "prefix": "bpm-w",
     "body": [
       "w: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Width 100": {
-    "prefix": "bp-w1",
+  "Native Base - Props - Map - Width 100": {
+    "prefix": "bpm-w1",
     "body": ["w: {base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"]
   },
 
   // height
-  "Native Base - Parameters - Height": {
-    "prefix": "bp-h",
+  "Native Base - Props - Map - Height": {
+    "prefix": "bpm-h",
     "body": [
       "h: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Height 100": {
-    "prefix": "bp-h1",
+  "Native Base - Props - Map - Height 100": {
+    "prefix": "bpm-h1",
     "body": ["h: {base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}"]
   },
 
   // margin
-  "Native Base - Parameters - Margin Bottom": {
-    "prefix": "bp-mb",
+  "Native Base - Props - Map - Margin Bottom": {
+    "prefix": "bpm-mb",
     "body": [
       "mb: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Margin Top": {
-    "prefix": "bp-mt",
+  "Native Base - Props - Map - Margin Top": {
+    "prefix": "bpm-mt",
     "body": [
       "mt: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Margin Right": {
-    "prefix": "bp-mr",
+  "Native Base - Props - Map - Margin Right": {
+    "prefix": "bpm-mr",
     "body": [
       "mr: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Margin Left": {
-    "prefix": "bp-ml",
+  "Native Base - Props - Map - Margin Left": {
+    "prefix": "bpm-ml",
     "body": [
       "ml: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Margin X": {
-    "prefix": "bp-mx",
+  "Native Base - Props - Map - Margin X": {
+    "prefix": "bpm-mx",
     "body": [
       "mx: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Margin Y": {
-    "prefix": "bp-my",
+  "Native Base - Props - Map - Margin Y": {
+    "prefix": "bpm-my",
     "body": [
       "my: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
   // padding
-  "Native Base - Parameters - Padding Bottom": {
-    "prefix": "bp-pb",
+  "Native Base - Props - Map - Padding Bottom": {
+    "prefix": "bpm-pb",
     "body": [
       "pb: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Padding Top": {
-    "prefix": "bp-pt",
+  "Native Base - Props - Map - Padding Top": {
+    "prefix": "bpm-pt",
     "body": [
       "pt: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Padding Right": {
-    "prefix": "bp-pr",
+  "Native Base - Props - Map - Padding Right": {
+    "prefix": "bpm-pr",
     "body": [
       "pr: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Padding Left": {
-    "prefix": "bp-pl",
+  "Native Base - Props - Map - Padding Left": {
+    "prefix": "bpm-pl",
     "body": [
       "pl: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Padding X": {
-    "prefix": "bp-px",
+  "Native Base - Props - Map - Padding X": {
+    "prefix": "bpm-px",
     "body": [
       "px: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]
   },
 
-  "Native Base - Parameters - Padding Y": {
-    "prefix": "bp-py",
+  "Native Base - Props - Map - Padding Y": {
+    "prefix": "bpm-py",
     "body": [
       "py: {base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}"
     ]

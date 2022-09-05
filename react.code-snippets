@@ -8,13 +8,13 @@
   
   "React - Use State - String": {
     "prefix": "r-us-s",
-    "body": ["const [s1, setS1] = React.useState<string>('')", ""],
+    "body": ["const [s${1}, setS${1}] = React.useState<string>('')"],
     "description": ""
   },
 
   "React - Use State - Boolean": {
     "prefix": "r-us-b",
-    "body": ["const [b1, setB1] = React.useState<boolean>(false)", ""],
+    "body": ["const [b${1}, setB${1}] = React.useState<boolean>(false)"],
     "description": ""
   },
 
@@ -91,7 +91,10 @@
       "//",
       "// run",
       "",
-      "console.log(`run async`)",
+      "console.log(`run`)",
+      "// eslint-disable-next-line no-promise-executor-return",
+      "await new Promise(resolve => setTimeout(resolve, 2000))",
+      "console.log(`complete`)",
       "} catch (e) {",
       "//",
       "// catch: ",

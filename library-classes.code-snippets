@@ -1,5 +1,5 @@
 {
-    "Radroots Class ": {
+    "Library Class ": {
         "prefix": "lib-class",
         "body": [
           "export class ${TM_FILENAME_BASE} {",

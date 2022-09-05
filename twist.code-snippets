@@ -1,0 +1,65 @@
+{
+    "Twist - Legend Geometry": {
+        "prefix": "tw-lg",
+        "body": [
+          "legend={{geometry}}"
+        ],
+        "description": ""
+      },
+
+      "Twist - Legend Geometry - Root": {
+        "prefix": "tw-lgr",
+        "body": [
+          "legend={{geometry: 'root'}}"
+        ],
+        "description": ""
+      },
+
+      "Twist - Typography - Legible": {
+        "prefix": "tw-typ-leg",
+        "body": [
+          "<TwistLetters legend={{ geometry, typography: `legible`, letters: `` }} />"
+        ],
+        "description": ""
+      },
+
+      "Twist - Radio": {
+        "prefix": "tw-radio",
+        "body": [
+          "      <TwistRadio",
+          "        legend={{",
+          "          geometry,",
+          "          letters: ``,",
+          "          lcC: (b: boolean) => console.log(b),",
+          "        }}",
+          "      />"
+        ],
+        "description": ""
+      },
+
+      "Twist - Input": {
+        "prefix": "tw-input",
+        "body": [
+          "<TwistInput legend={{ geometry, cycle: (s: string) => console.log(s) }} />"
+        ],
+        "description": ""
+      },
+
+      "Twist - Touch": {
+        "prefix": "tw-touch",
+        "body": [
+          " <TwistTouch",
+          "          legend={{ geometry, letters: `touch`, lcT: () => console.log(`touch`) }}",
+          "        />"
+        ],
+        "description": ""
+      },
+
+      "": {
+        "prefix": "",
+        "body": [
+          "<TwistLayoutCanvas legend={{ geometry, element: <>element</> }} />"
+        ],
+        "description": ""
+      }
+}
