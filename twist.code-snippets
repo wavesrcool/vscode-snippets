@@ -7,13 +7,14 @@
         "description": ""
       },
 
-      "Twist - Legend Geometry - Root": {
-        "prefix": "tw-lgr",
+      "Twist - Legend Geometry - Component": {
+        "prefix": "tw-lgc",
         "body": [
-          "legend={{geometry: 'root'}}"
+          "legend={{geometry: legend.geometry}}"
         ],
         "description": ""
       },
+
 
       "Twist - Typography - Legible": {
         "prefix": "tw-typ-leg",

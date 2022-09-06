@@ -77,7 +77,7 @@
   "React - Use Callback Async": {
     "prefix": "r-lca",
     "body": [
-      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
+      "const lca${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
       "//",
       "// @notes:",
       "",

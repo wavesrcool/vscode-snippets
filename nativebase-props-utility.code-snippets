@@ -3,6 +3,13 @@
   //
   // Native Base - Props - Utility
   //
+  "Native Base - Props - Utility - Text Align - Center": {
+    "prefix": "bpu-ta-j",
+    "body": [
+      "textAlign={[`justify`]}"
+    ]
+  },
+
   // linear-gradient
   "Native Base - Props - Utility - Linear Gradient": {
     "prefix": "bpu-lg",
@@ -58,21 +65,21 @@
   // justify / align
 
   "Native Base - Props - Utility - Align Items - Center": {
-    "prefix": "bpu-ai-c",
+    "prefix": "bpu-al-c",
     "body": [
       "alignItems={[`center`]}"
     ]
   },
 
   "Native Base - Props - Utility - Align Items - Flex Start": {
-    "prefix": "bpu-ai-fs",
+    "prefix": "bpu-al-fs",
     "body": [
       "alignItems={[`flex-start`]}"
     ]
   },
 
   "Native Base - Props - Utility - Align Items - Flex End": {
-    "prefix": "bpu-ai-fs",
+    "prefix": "bpu-al-fs",
     "body": [
       "alignItems={[`flex-end`]}"
     ]

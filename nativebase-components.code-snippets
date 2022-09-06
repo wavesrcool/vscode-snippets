@@ -1,7 +1,7 @@
 {
   //
-  // stack
-  //
+  // 
+  // column
   //
 
   "Native Base - Components - Column": {
@@ -66,201 +66,69 @@
     "description": ""
   },
 
-
+  //
+  //
   // row
-  "Native Base - Components - Stack Row": {
-    "prefix": "b-stack-r",
+  //
+
+  "Native Base - Components - Row": {
+    "prefix": "b-row",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `row`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "            >",
-      "row",
-      "            </Stack>"
+      "   <Row space={4}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   },
 
-  "Native Base - Components - Stack Row Centered": {
-    "prefix": "b-stack-rc",
+
+  "Native Base - Components - Row - Centered": {
+    "prefix": "b-row-c",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `row`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `center`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `center`,",
-      "              }}",
-      "            >",
-      "row",
-      "            </Stack>"
+      "   <Row space={4} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   },
 
-  "Native Base - Components - Stack Row 100": {
-    "prefix": "b-stack-r1",
+  "Native Base - Components - Row - Centered All": {
+    "prefix": "b-row-cc",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `row`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              w={{",
-      "                base: `100%`,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "            >",
-      "row",
-      "            </Stack>"
+      "   <Row space={4} alignItems={[`center`]} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   },
 
-  "Native Base - Components - Stack Row 100 Centered": {
-    "prefix": "b-stack-r1c",
+  "Native Base - Components - Row - 100": {
+    "prefix": "b-row-1",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `row`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              w={{",
-      "                base: `100%`,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `center`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `center`,",
-      "              }}",
-      "            >",
-      "row",
-      "            </Stack>"
+      "   <Row space={4} width={[`100%`]}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   },
 
-  // column
-  "Native Base - Components - Stack Column": {
-    "prefix": "b-stack-c",
+  "Native Base - Components - Row - 100 - Centered": {
+    "prefix": "b-row-1c",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `column`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "            >",
-      "column",
-      "            </Stack>"
+      "   <Row space={4} width={[`100%`]} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   },
 
-  "Native Base - Components - Stack Column Centered": {
-    "prefix": "b-stack-cc",
-    "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `column`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `center`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `center`,",
-      "              }}",
-      "            >",
-      "column",
-      "            </Stack>"
-    ],
-    "description": ""
-  },
 
-  "Native Base - Components - Stack Column 100": {
-    "prefix": "b-stack-c1",
+  "Native Base - Components - Row - 100 - Centered All": {
+    "prefix": "b-row-1cc",
     "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `column`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              w={{",
-      "                base: `100%`,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `flex-start`,",
-      "              }}",
-      "            >",
-      "column",
-      "            </Stack>"
-    ],
-    "description": ""
-  },
-
-  "Native Base - Components - Stack Column 100 Centered": {
-    "prefix": "b-stack-c1c",
-    "body": [
-      "     <Stack",
-      "              direction={{",
-      "                base: `column`,",
-      "              }}",
-      "              space={{",
-      "                base: 0,",
-      "              }}",
-      "              w={{",
-      "                base: `100%`,",
-      "              }}",
-      "              alignItems={{",
-      "                base: `center`,",
-      "              }}",
-      "              justifyContent={{",
-      "                base: `center`,",
-      "              }}",
-      "            >",
-      "column",
-      "            </Stack>"
+      "   <Row space={4} width={[`100%`]} alignItems={[`center`]} justifyContent={[`center`]}>",
+      "        ${1}",
+      "      </Row>"
     ],
     "description": ""
   }
