@@ -7,5 +7,7 @@
   },
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "typescript.preferences.importModuleSpecifier": "relative"
+
 }
