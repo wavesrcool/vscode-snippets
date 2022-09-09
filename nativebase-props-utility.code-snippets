@@ -1,0 +1,249 @@
+{
+  //
+  //
+  // Native Base - Props - Utility
+  //
+  "Native Base - Props - Utility - Text Align - Center": {
+    "prefix": "bpu-ta-j",
+    "body": [
+      "textAlign={[`justify`]}"
+    ]
+  },
+
+  // linear-gradient
+  "Native Base - Props - Utility - Linear Gradient": {
+    "prefix": "bpu-lg",
+    "body": [
+      "bg={{",
+      "          linearGradient: {",
+      "            colors: ['lightBlue.200', 'violet.200'],",
+      "            start: [0, 0.1],",
+      "            end: [0.8, 0.5],",
+      "          },",
+      "        }}"
+    ],
+    "description": ""
+  },
+
+  // space
+  "Native Base - Props - Utility - Spacing": {
+    "prefix": "bpu-sp",
+    "body": [
+      "space={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Direction Row": {
+    "prefix": "bpu-dir-r",
+    "body": [
+      "direction={{base:`row`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Direction Column": {
+    "prefix": "bpu-dir-c",
+    "body": [
+      "direction={{base:`column`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // flex
+  "Native Base - Props - Utility - Flex Directon Row": {
+    "prefix": "bpu-flr",
+    "body": [
+      "flexDirection={{base:`row`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Flex Directon Column": {
+    "prefix": "bpu-flc",
+    "body": [
+      "flexDirection={{base:`column`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // justify / align
+
+  "Native Base - Props - Utility - Align Items - Center": {
+    "prefix": "bpu-al-c",
+    "body": [
+      "alignItems={[`center`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Align Items - Flex Start": {
+    "prefix": "bpu-al-fs",
+    "body": [
+      "alignItems={[`flex-start`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Align Items - Flex End": {
+    "prefix": "bpu-al-fs",
+    "body": [
+      "alignItems={[`flex-end`]}"
+    ]
+  },
+
+
+  "Native Base - Props - Utility - Justify Content - Center": {
+    "prefix": "bpu-jc-c",
+    "body": [
+      "justifyContent={[`center`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Justify Content - Flex Start": {
+    "prefix": "bpu-jc-fs",
+    "body": [
+      "justifyContent={[`flex-start`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Justify Content - Flex End": {
+    "prefix": "bpu-jc-fe",
+    "body": [
+      "justifyContent={[`flex-end`]}"
+    ]
+  },
+
+  // width
+  "Native Base - Props - Utility - Width - Pixels": {
+    "prefix": "bpu-w-px",
+    "body": [
+      "width={[`${ 48}px`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Width - 100%": {
+    "prefix": "bpu-w1",
+    "body": [
+      "width={[`${ 100}%`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Width": {
+    "prefix": "bpu-w-o",
+    "body": [
+      "width={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Width 100": {
+    "prefix": "bpu-w1-o",
+    "body": ["width={{base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"]
+  },
+
+  // height
+  "Native Base - Props - Utility - Height - Pixels": {
+    "prefix": "bpu-h-px",
+    "body": [
+      "height={[`${ 48}px`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Height - 100%": {
+    "prefix": "bpu-h1",
+    "body": [
+      "height={[`${ 100}%`]}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Height - Object": {
+    "prefix": "bpu-h-0",
+    "body": [
+      "height={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Height 100 - Object": {
+    "prefix": "bpu-h1-o",
+    "body": ["height={{base:`100%`, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"]
+  },
+
+  // margin
+  "Native Base - Props - Utility - Margin Bottom": {
+    "prefix": "bpu-mb",
+    "body": [
+      "mb={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Margin Top": {
+    "prefix": "bpu-mt",
+    "body": [
+      "mt={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Margin Right": {
+    "prefix": "bpu-mr",
+    "body": [
+      "mr={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Margin Left": {
+    "prefix": "bpu-ml",
+    "body": [
+      "ml={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Margin X": {
+    "prefix": "bpu-mx",
+    "body": [
+      "mx={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Margin Y": {
+    "prefix": "bpu-my",
+    "body": [
+      "my={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  // padding
+  "Native Base - Props - Utility - Padding Bottom": {
+    "prefix": "bpu-pb",
+    "body": [
+      "pb={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Padding Top": {
+    "prefix": "bpu-pt",
+    "body": [
+      "pt={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Padding Right": {
+    "prefix": "bpu-pr",
+    "body": [
+      "pr={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Padding Left": {
+    "prefix": "bpu-pl",
+    "body": [
+      "pl={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Padding X": {
+    "prefix": "bpu-px",
+    "body": [
+      "px={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  },
+
+  "Native Base - Props - Utility - Padding Y": {
+    "prefix": "bpu-py",
+    "body": [
+      "py={{base:undefined, sm:undefined, md:undefined, lg:undefined, xl:undefined}}"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NativeBase - Theme - Component - Variant Declaration": {
+    "prefix": "b-th-cvd",
+    "body": [
+      "/* eslint-disable @typescript-eslint/no-explicit-any */",
+      "import { themeTools } from 'native-base'",
+      "",
+      "const ${TM_FILENAME_BASE} = (props: any) => {",
+      "  return {",
+      "    fontFamily: themeTools.mode(`circular.400`, `circular.400`)(props),",
+      "  }",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}",
+      ""
+    ],
+    "description": ""
+  },
+
+  "NativeBase - Theme - Component - Variant Field": {
+    "prefix": "b-th-cvf",
+    "body": ["${1}: themeTools.mode(`${2}`, `${3}`)(props),", ""],
+    "description": ""
+  },
+}

@@ -1,13 +1,20 @@
 {
+  "React - Import All": {
+    "prefix": "r-ia",
+    "body": ["import * as React from 'react'"],
+    "description": ""
+  },
+
+  
   "React - Use State - String": {
     "prefix": "r-us-s",
-    "body": ["  const [s1, setS1] = React.useState<string>('')", ""],
+    "body": ["const [s${1}, setS${1}] = React.useState<string>('')"],
     "description": ""
   },
 
   "React - Use State - Boolean": {
     "prefix": "r-us-b",
-    "body": ["  const [b1, setB1] = React.useState<boolean>(false)", ""],
+    "body": ["const [b${1}, setB${1}] = React.useState<boolean>(false)"],
     "description": ""
   },
 
@@ -70,7 +77,7 @@
   "React - Use Callback Async": {
     "prefix": "r-lca",
     "body": [
-      "const lc${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
+      "const lca${TM_FILENAME_BASE}${1} = React.useCallback(() => {",
       "//",
       "// @notes:",
       "",
@@ -84,7 +91,10 @@
       "//",
       "// run",
       "",
-      "console.log(`run async`)",
+      "console.log(`run`)",
+      "// eslint-disable-next-line no-promise-executor-return",
+      "await new Promise(resolve => setTimeout(resolve, 2000))",
+      "console.log(`complete`)",
       "} catch (e) {",
       "//",
       "// catch: ",

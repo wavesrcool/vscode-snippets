@@ -1,0 +1,45 @@
+{
+    "Library - Reference - Default": {
+        "prefix": "lb-refd",
+        "body": [
+          "const ${TM_FILENAME_BASE} = '${1}'",
+          "",
+          "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": ""
+      },
+
+      "Library - Reference - Default - Object": {
+        "prefix": "lb-refdo",
+        "body": [
+          "const ${TM_FILENAME_BASE} = {}",
+          "",
+          "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": ""
+      },
+
+      "Library - Reference ": {
+        "prefix": "lb-ref",
+        "body": [
+          "export const ${TM_FILENAME_BASE} = '${1}'",
+                ],
+        "description": ""
+      },
+
+      "Library - Reference - Object ": {
+        "prefix": "lb-ref",
+        "body": [
+          "export const ${TM_FILENAME_BASE} = {}",
+                ],
+        "description": ""
+      },
+
+      "Library - Reference - Map": {
+        "prefix": "lb-ref-map",
+        "body": [
+          "export const ReferenceMap${TM_FILENAME_BASE} = {}",
+                ],
+        "description": ""
+      }
+}

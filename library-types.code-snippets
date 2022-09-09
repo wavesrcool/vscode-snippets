@@ -1,0 +1,19 @@
+{
+    "Library - Reference - Default": {
+        "prefix": "lib-typd",
+        "body": [
+          "type ${TM_FILENAME_BASE} = {}",
+          "",
+          "export default ${TM_FILENAME_BASE}"
+        ],
+        "description": ""
+      },
+
+      "Library - Reference ": {
+        "prefix": "lib-typ",
+        "body": [
+          "export type ${TM_FILENAME_BASE} = {}",
+                ],
+        "description": ""
+      }
+}
